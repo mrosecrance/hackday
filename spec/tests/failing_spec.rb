@@ -1,7 +1,7 @@
 require "rails_helper"
 
 describe "failing test" do
-  let(:val) {true}
+  let(:val) {false}
   it("fails") do
     expect(true).to eq(val)
   end
