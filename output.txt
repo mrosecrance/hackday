@@ -1,0 +1,6 @@
+Failed examples:
+
+rspec ./spec/tests/failing_spec.rb:5 # failing test fails
+rspec ./spec/tests/failing_spec.rb:9 # failing test fails2
+rspec ./spec/tests/failing_spec.rb:13 # failing test fails2
+rspec ./spec/tests/failing_spec.rb:18 # failing test passes

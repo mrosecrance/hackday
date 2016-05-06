@@ -12,7 +12,6 @@ describe "failing test" do
 
   it("fails2") do
     expect(true).to eq(val)
-    expect(true).to eq(val)
   end
 
   it("passes") do
