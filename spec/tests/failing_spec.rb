@@ -13,6 +13,10 @@ describe "failing test" do
     expect(true).to eq(true)
   end
 
+  it("passes again") do
+    expect(true).to eq(true)
+  end
+
   describe("extra describe block here") do
     it("fails3") do
       expect(true).to eq(false)
