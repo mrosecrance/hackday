@@ -1,0 +1,50 @@
+FF.FF
+
+Failures:
+
+  1) failing test fails
+     Failure/Error: expect(true).to eq(false)
+
+       expected: false
+            got: true
+
+       (compared using ==)
+     # ./spec/tests/failing_spec.rb:5:in `block (2 levels) in <top (required)>'
+
+  2) failing test fails2
+     Failure/Error: expect(true).to eq(false)
+
+       expected: false
+            got: true
+
+       (compared using ==)
+     # ./spec/tests/failing_spec.rb:9:in `block (2 levels) in <top (required)>'
+
+  3) failing test extra describe block here fails3
+     Failure/Error: expect(true).to eq(false)
+
+       expected: false
+            got: true
+
+       (compared using ==)
+     # ./spec/tests/failing_spec.rb:18:in `block (3 levels) in <top (required)>'
+
+  4) failing test this is the context still fails
+     Failure/Error: expect(true).to eq(false)
+
+       expected: false
+            got: true
+
+       (compared using ==)
+     # ./spec/tests/failing_spec.rb:24:in `block (3 levels) in <top (required)>'
+
+Finished in 0.03617 seconds (files took 2.73 seconds to load)
+5 examples, 4 failures
+
+Failed examples:
+
+rspec ./spec/tests/failing_spec.rb:4 # failing test fails
+rspec ./spec/tests/failing_spec.rb:8 # failing test fails2
+rspec ./spec/tests/failing_spec.rb:17 # failing test extra describe block here fails3
+rspec ./spec/tests/failing_spec.rb:23 # failing test this is the context still fails
+
